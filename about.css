@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Crete+Round:ital@0;1&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Parkinsans:wght@300..800&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Crete+Round:ital@0;1&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Parkinsans:wght@300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Crete+Round:ital@0;1&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Parkinsans:wght@300..800&display=swap');
+
+*{
+    border: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+.section1{
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/home\ img.png) ;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+   
+    border-radius: 8px;
+    height:15vh;
+    background-image: linear-gradient(rgb(201, 200, 200) 10%, transparent );
+}
+
+.logu{
+    width: 350px;
+    transition: 300ms;
+}
+.hadok{
+    margin-right: 70px;
+    
+}
+.hadak a img{
+    width: 35px;
+    margin: 20px;
+    transition: .3s;
+}
+.link a{
+    color: rgb(80, 80, 80);
+    font-family: "Crete Round", serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 24px;
+    text-decoration: none;
+    transition: .3s;
+}
+.link a:hover{
+    border-bottom: 3px solid grey;
+    transition: .1s ease;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    gap: 66px;
+}
+.hadak a img:hover{
+    width: 41px;
+    filter: drop-shadow(2px 2px 4px rgb(43, 43, 43));
+}
+.backg{
+    margin-top: 50px;
+    margin-left: 95px;
+    height: 70vh;
+    width: 27vw;
+    background-color: rgb(176, 176, 176);
+    background-image:linear-gradient(to top, rgba(0, 0, 0, 0) 70%, rgba(255, 255, 255,1 )100%);
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 8px;
+    filter: drop-shadow(10px 60px 35px black);
+}
+
+div .about-arika{
+    position:relative;
+    float: left;
+    width: 35%;
+    transform: translateY(-685px);
+    margin-left: 210px;
+}
+.section1 h1{
+    font-size: 90px;
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.ns{
+    padding-right: 70px;
+    position: relative;
+    transform: translateY(-600px);
+    
+    
+}
+.ns h1{
+    padding-bottom: 80px;
+}
+.ns p{
+    line-height: 40px;
+    font-size: 20px;
+    font-family: "Crimson Text", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.backg1{
+    margin-top: 50px;
+    height: 40vh;
+    width: 100%vw;
+    background-color: rgb(203, 202, 202);
+    background-image:linear-gradient(to top, rgba(0, 0, 0, 0) 70%, rgba(255, 255, 255,1 )100%);
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+   
+
+    
+}
+.content44{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.content44 h1{
+    margin-top: 50px;
+    font-size: 70px;
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.content44 p{
+    margin: 150px;
+    margin-top: 20px;
+    font-size: 27px;
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.footer {
+    background-color: #656565;
+    color: #fff;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-family: Arial, sans-serif;
+}
+
+.footer1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+}
+
+.footer1 div {
+    margin: 0 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-f {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.h-f {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.links1 {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+
+.links1 li {
+    margin-bottom: 10px;
+}
+
+.links1 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.links1 a:hover {
+    text-decoration: underline;
+}
+
+.bohdha p, .footer1 div p {
+    margin: 10px 0;
+}
+
+.footer1 div img {
+    width: 400px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.footer1 div a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer1 div a:hover {
+    text-decoration: underline;
+}
+
+.fa-whatsapp {
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+
+.container55 {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .form-section {
+    flex: 1 1 300px;
+    max-width: 50%;
+    margin-left: 50px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .input-gr {
+    display: flex;
+    gap: 10px;
+    
+    
+  }
+  
+  input, textarea, button {
+    padding: 11px;
+    border: 1px solid #dcdcdc;
+    border-radius: 15px;
+    font-size: 24px;
+  }
+  
+  textarea {
+    resize: none;
+    height: 100px;
+  }
+  
+  button {
+    background-color: #b6b9b8;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #939393;
+  }
+  
+  .new-section {
+    flex: 1 1 300px;
+    width: 20%;
+    padding: 20px;
+    margin-right: 100px;
+    margin-left: 50px;
+    background-color: #a2a2a2;
+    border-radius: 15px;
+    font-size: 24px;
+  }
+  new-section h3 {
+    margin-top: 0;
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    
+    
+  }
+  
+  .info-box {
+    flex: 1 1 200px;
+    width: 300px;
+    text-align: center;
+    background-color: #b9baba;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 90px 70px;
+    border-radius: 40px;
+    
+  }
+  
+  .icon {
+    font-size: 40px;
+    display: block;
+    margin-bottom: 10px;
+  }
+.part1{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}  
+section .container55 . .part1 .form-section{
+    width: 70vw;
+    height: 400px;
+    font-size: 70px;
+} 
+.part2 .info-box p{
+    font-size: 25px;
+}
+  
